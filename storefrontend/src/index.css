@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* header{
+  background-color:rgba(22, 20, 20, 0.855);
+  padding:20px;
+
+}
+
+header a{
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:larger;
+} */
+main{
+flex:1;
+}
+.site-container{
+  min-height:100vh;
+}
+.products{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  /* width:600px; */
+}
+
+.product{
+  border:3px solid black;
+  margin:2rem;
+  padding: 2rem;
+}
+.product img{
+  width:100%;
+  max-width:400px;
+} */
+.product-info{
+  /* padding:2 rem;
+  margin-left: 10px; */
+  padding: 3rem;
+  text-align: center;
+}
+p{ 
+  text-align: center;
+}
+.text-center{
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
+}
+.price{
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.btn{
+  border-radius: 10px;
+  background-color:goldenrod;
+  font-weight:bold;
+  color: black;
+  border:1px solid black;
+  font-size:15px;
+  box-shadow: 0 8px 8px  rgba(0,0,0,0.2), 0 8px 8px 0 rgba(0,0,0,0.19);
+  margin: auto;
+  /* display:flex; */
+  
+}
+/* .btn:hover {
+  background-color:rgb(24, 174, 204);
+  border-radius: 10px;
+  border:1px solid black;
+} */
+/* .btn:active{
+  background-color: green;
+} */
+
+.rating span{
+color:rgb(243, 207, 3);
+font-weight:600;
+}
+
+.review{
+  display: inline;
+  color: black;
+  font-weight: bold;
+}
+.card-img-top{
+   height:400px;
+ /* width:auto; */
+}
+.img-large{
+max-width: 500%;
+}
+
+.stock{
+  font-weight: bold;
+  background-color:rgba(128, 234, 72, 0.806);
+}
+
+.d-gid{
+  padding-top:15px
+}
+
+.bts{
+  background-color: gold;
+}
+
+.cards{
+  width:fit-content;
+  
+  height:50%;
+}
+
+.nav-Link{
+  color:white;
+  text-decoration: none;
+}
+
+.home{
+  text-decoration: none;
+}
+
+.img-thumbnail{
+  height:80px;
+}
+
+.icon{
+  background-color:white;
+  box-shadow:none;
+
+}
+
+#basic-nav-dropdown{
+  color: white;
+}
+
+.logout{
+  color:red;
+  font-size: 18px;
+  font-weight:bold;
+  margin-left: 15px;
+}
+
+#signin{
+  color:white;
+}
