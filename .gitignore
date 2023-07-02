@@ -1,0 +1,8 @@
+# Ignore node_modules in frontend
+storefrontend/node_modules
+
+# Ignore node_modules in backend
+storebackend/node_modules
+
+# Ignore .env file in backend
+storebackend/.env
