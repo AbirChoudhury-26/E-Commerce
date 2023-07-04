@@ -2,14 +2,14 @@
  `A Perfect E-Commerce store that  offers a variety of products, Products Descriptions, a user-friendly cart, and personalized User profiles for a smooth shopping experience.`
 
 ## Tech Stacks:
-  >Frontend:
+  >**Frontend**:
   * `ReactJS`
   * `Redux`
   * `CSS Properties`
->Backend:
+>**Backend**:
  * `NodeJS`
  * `ExpressJS`
-> Database:
+> **Database**:
  * `MongoDB`
   
 
@@ -33,7 +33,7 @@
 
 ![Sign In](Screenshots/E-Com-SignIn.PNG)
 
-5. On Successful Sign ,it redirects to  **SHipping Page** Page along with **User Profile**
+5. On Successful Sign ,it redirects to  **Shipping Page** Page along with **User Profile**
 
 ![Shipping & User profile](<Screenshots/E-Comm-UserProfile& Shipping Address.PNG>)
 
