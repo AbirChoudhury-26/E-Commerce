@@ -13,7 +13,7 @@
  * `MongoDB`
   
 
-### Page has Links to : Home Page,Cart Option,User Profile.
+### Page has Links to : Home Page,Cart Option,User Profile.Feature of Stock Availablity & Shipping address auto fill by login Details are here.
 
 # **Insights of Project**
 
