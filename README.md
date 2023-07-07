@@ -12,6 +12,7 @@
 > **Database**:
  * `MongoDB`
   
+* Also API's are used to Fetch Request & some Popular Tools for Testing are there. Among them I used ***Postman Tool***.
 
 ### Page has Links to : Home Page,Cart Option,User Profile.Feature of Stock Availablity & Shipping address auto fill by login Details are here.
 
