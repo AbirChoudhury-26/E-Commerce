@@ -142,7 +142,7 @@ max-width: 500%;
 }
 
 .logout{
-  color:red;
+  color:rgba(199, 22, 22, 0.97);
   font-size: 18px;
   font-weight:bold;
   margin-left: 15px;
