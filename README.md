@@ -1,11 +1,12 @@
 # E-COMMERCE STORE
- `A Perfect E-Commerce store that  offers a variety of products, Products Descriptions, a user-friendly cart, and personalized User profiles for a smooth shopping experience.`
+ `A Perfect E-Commerce store that  offers a variety of products, Products Descriptions, User-friendly Interface,Cart-Feature,Shipping-Address,Order Summary,Payment Gateway etc.for a smooth shopping experience.`
 
 ## Tech Stacks:
-  >**Frontend**:
+>**Frontend**:
   * `ReactJS`
   * `Redux`
   * `CSS Properties`
+  * `Restful API's`
 >**Backend**:
  * `NodeJS`
  * `ExpressJS`
