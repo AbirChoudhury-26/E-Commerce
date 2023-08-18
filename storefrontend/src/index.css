@@ -33,7 +33,7 @@ flex:1;
 }
 
 .product{
-  border:3px solid black;
+  border:2px solid black;
   margin:2rem;
   padding: 2rem;
 }
@@ -62,12 +62,12 @@ p{
 
 .btn{
   border-radius: 10px;
-  background-color:goldenrod;
+  background-color:rgb(207, 164, 56);
   font-weight:bold;
   color: black;
   border:1px solid black;
   font-size:15px;
-  box-shadow: 0 8px 8px  rgba(0,0,0,0.2), 0 8px 8px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 0px 0px  rgba(0,0,0,0.2), 0 3px 3px 0 rgba(0,0,0,0.19);
   margin: auto;
   /* display:flex; */
   
@@ -82,7 +82,7 @@ p{
 } */
 
 .rating span{
-color:rgb(243, 207, 3);
+color:rgb(232, 198, 8);
 font-weight:600;
 }
 
@@ -132,7 +132,7 @@ max-width: 500%;
 }
 
 .icon{
-  background-color:white;
+  background-color:rgb(171, 161, 134);
   box-shadow:none;
 
 }
@@ -142,7 +142,7 @@ max-width: 500%;
 }
 
 .logout{
-  color:rgba(199, 22, 22, 0.97);
+  color:rgb(248, 6, 6);
   font-size: 18px;
   font-weight:bold;
   margin-left: 15px;
@@ -150,4 +150,29 @@ max-width: 500%;
 
 #signin{
   color:white;
+}
+
+.checkout-steps>div{
+  border-bottom:0.2rem solid gray;
+  color:grey;
+  font-weight:500;
+  font-size:20px;
+}
+
+.checkout-steps>div.active{
+  border-bottom:0.2rem solid orange;
+  color:orange;
+  font-weight:500;
+  font-size:20px;
+}
+
+.small-container{
+  padding-top: 30px;
+}
+
+.preview{
+text-align: left;
+}
+.placeorderItems{
+  padding-top: 25px;
 }
