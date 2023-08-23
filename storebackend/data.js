@@ -9,12 +9,7 @@ const data = {
       isAdmin: true,
     },
 
-    {
-      name: 'Manash Choudhury',
-      email: 'manash72@gmail.com',
-      password: bcrypt.hashSync('123456789'),
-      isAdmin: false,
-    },
+  
   ],
 
   products: [
