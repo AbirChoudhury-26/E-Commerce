@@ -15,3 +15,32 @@ export const generateToken = (user) => {
     }
   );
 };
+
+// Using this Function as an Middleware in our OrderRoutes Page ,so to get the User Token in our On eof the fields in Order Post
+export const isAuth=(req,res,next)=>{
+   const authorization=req.headers.authorization;
+   if(authorization)
+   {
+
+    const token= authorization.slice(7, authorization.length);  // Bearer XXXX
+    
+    jwt.verify(
+      token,
+      process.env.JWT_KEY,
+      (err,decode)=>{
+         if(err)
+          {
+            res.status(401).send(({message:'Token Match Nahi Ho raha hai'}));
+          }
+          else{
+            req.user=decode;
+            next();
+          }
+      }
+    )
+   }
+   
+
+   // Creating a Callback function
+    
+}
