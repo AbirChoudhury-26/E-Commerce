@@ -12,11 +12,14 @@ import { Store } from './Store';
 import { useContext } from 'react';
 import CartScreen from './screens/CartScreen';
 import SigninScreen from './screens/SigninScreen';
+import SignupScreen from './screens/SignupScreen';
 import { NavDropdown } from 'react-bootstrap';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ShippingAddressScreen from './screens/ShippingAddressScreen';
-
+import PaymentScreen from './screens/PaymentScreen';
+import PlaceorderScreen from './screens/PlaceorderScreen';
+import OrderedScreen from './screens/OrderedScreen';
 
 function App() {
   
@@ -26,7 +29,9 @@ function App() {
   const logoutHandler=()=>{
    ctxDispatch({type:'USER_SIGNOUT'});
    localStorage.removeItem('userInfo');
-  }
+   localStorage.removeItem('shippingAddress'); 
+   localStorage.removeItem('paymentMethod');
+  };
 
 
   return (
@@ -47,7 +52,7 @@ function App() {
                   <Badge pill bg="danger">{cart.cartItems.reduce((a,c)=> a+c.quantity,0)}</Badge>
                 )}
               </Link>{' '}
-              
+            
              {userInfo ?(
               <NavDropdown title={userInfo.name} id="basic-nav-dropdown" >
                 <LinkContainer to="/profile">
@@ -79,10 +84,14 @@ function App() {
           <Route path='/signin' element={<SigninScreen/>}/>
           <Route path="/shipping" element={<ShippingAddressScreen/>}/>
           <Route path="/" element={<HomeScreen/>}/>
+          <Route path='/signup' element={<SignupScreen/>}/>
+          <Route path='/placeorder' element={<PlaceorderScreen/>}/>
+          <Route path='/payment' element={<PaymentScreen/>}/>
+           <Route path='/order/:id' element={<OrderedScreen/>}/>
         </Routes>
         </Container>
       </main>
-
+ 
       <footer>
         <div className='text-center'> All Right Reserved</div>
       </footer>
