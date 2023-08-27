@@ -160,7 +160,7 @@ max-width: 500%;
 }
 
 .checkout-steps>div.active{
-  border-bottom:0.2rem solid orange;
+  border-bottom:0.2rem solid rgb(75,181,67);
   color:orange;
   font-weight:500;
   font-size:20px;
