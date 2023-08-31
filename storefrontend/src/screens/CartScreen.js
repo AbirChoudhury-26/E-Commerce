@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import Col from 'react-bootstrap/esm/Col';
 import Row from 'react-bootstrap/esm/Row';
 import { Helmet } from 'react-helmet-async';
@@ -10,6 +10,7 @@ import {Button} from 'react-bootstrap';
 import axios from 'axios';
 
 export default function CartScreen() {
+    
     const navigate= useNavigate();
   const { state, dispatch: ctxdispatch } = useContext(Store);
   const {
