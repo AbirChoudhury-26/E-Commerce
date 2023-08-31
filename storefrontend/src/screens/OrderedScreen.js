@@ -79,6 +79,10 @@ const OrderedScreen = () => {
     return actions.order.capture().then(async function (details) {
       try {
         dispatch({ type: 'PAY_REQUEST' });
+        if (!order || !order._id) {
+          throw new Error('Order not found.');
+        }
+        
         const { data } = await axios.put(
           `/api/orders/${order._id}/pay`,
           details,
