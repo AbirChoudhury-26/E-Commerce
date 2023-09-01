@@ -85,7 +85,7 @@ const SigninScreen = () => {
         <div className="mb-3">
             New Customer?{' '}
             {/*  Here Redirects takes the shipping address value from url,to perform it,we write some code line above return  */}
-            <Link to={`signup?redirect=${redirect}`}> Create Your Account</Link>
+            <Link to={`/signup?redirect=${redirect}`}> Create Account</Link>
         </div>
       </Form>
     </Container>
