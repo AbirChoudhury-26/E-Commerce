@@ -11,7 +11,7 @@ export const generateToken = (user) => {
     },
     process.env.JWT_KEY,
     {
-      expiresIn: '2d',
+      expiresIn: '3d',
     }
   );
 };
@@ -30,7 +30,7 @@ export const isAuth=(req,res,next)=>{
       (err,decode)=>{
          if(err)
           {
-            res.status(401).send(({message:'Token Match Nahi Ho raha hai'}));
+            res.status(401).send(({message:err}));
           }
           else{
             req.user=decode;
