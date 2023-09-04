@@ -71,7 +71,7 @@ const SigninScreen = () => {
       <Form onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="email">
           <Form.Label>E-Mail</Form.Label>
-          <Form.Control type="email" required onChange={(e)=>setEmail(e.target.value)} />
+          <Form.Control type="email" required onChange={(e)=>setEmail(e.target.value)}   placeholder="xxx@gmail.com"/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="password">
