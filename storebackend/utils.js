@@ -16,7 +16,7 @@ export const generateToken = (user) => {
   );
 };
 
-// Using this Function as an Middleware in our OrderRoutes Page ,so to get the User Token in our On eof the fields in Order Post
+// Using this Function as an Middleware in our OrderRoutes Page ,so to get the User Token in our One of the fields in Order Post
 export const isAuth=(req,res,next)=>{
    const authorization=req.headers.authorization;
    if(authorization)
@@ -34,7 +34,7 @@ export const isAuth=(req,res,next)=>{
           }
           else{
             req.user=decode;
-            next();
+            next();  // Here if everything is right ,then next middleware is called.It can be abything like Anither authentication or the functional Logic also
           }
       }
     )
