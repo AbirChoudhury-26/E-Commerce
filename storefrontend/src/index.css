@@ -160,8 +160,8 @@ max-width: 500%;
 }
 
 .checkout-steps>div.active{
-  border-bottom:0.2rem solid rgb(75,181,67);
-  color:rgb(75,181,67);
+  border-bottom:0.2rem solid rgb(46, 177, 36);
+  color:rgb(46, 177, 36);
   font-weight:500;
   font-size:20px;
 }
