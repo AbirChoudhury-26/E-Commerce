@@ -80,17 +80,17 @@ const SignUpScreen = () => {
       <Form onSubmit={submitHandler}>
       <Form.Group className="mb-3" controlId="name">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="name" required onChange={(e)=>setName(e.target.value)} />
+          <Form.Control type="name" required onChange={(e)=>setName(e.target.value)} placeholder="Abir Choudhury"/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="email">
           <Form.Label>E-Mail</Form.Label>
-          <Form.Control type="email" required onChange={(e)=>setEmail(e.target.value)} />
+          <Form.Control type="email" required onChange={(e)=>setEmail(e.target.value)} placeholder="abir@gmail.com" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="password">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" required  onChange={(e)=>setPassword(e.target.value)}/>
+          <Form.Control type="password" required  onChange={(e)=>setPassword(e.target.value)} placeholder="Min 8 Character (a-z,A-Z,0-9,@,#)"/>
         </Form.Group>
         
         <Form.Group className="mb-3" controlId="confirmpassword">
