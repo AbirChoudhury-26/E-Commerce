@@ -39,6 +39,8 @@
 
 ![Shipping & User profile](<Screenshots/E-Comm-UserProfile& Shipping Address.PNG>)
 
+6. Shipping Page is further redirected to **Payment Page** Options.
+
 
 ### Features Like Payment Gateway ,Discount etc. will be added..
 
