@@ -40,7 +40,9 @@
 ![Shipping & User profile](<Screenshots/E-Comm-UserProfile& Shipping Address.PNG>)
 
 6. Shipping Page is further redirected to **Payment Page** Options.
+ It includes opton like Google Pay,Phone Pay etc.
 
+After all these steps an Order Summary Pagewith all the details filled are shown.
 
 ### Features Like Payment Gateway ,Discount etc. will be added..
 
