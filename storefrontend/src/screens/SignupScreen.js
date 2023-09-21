@@ -32,7 +32,7 @@ const SignUpScreen = () => {
       e.preventDefault();
         if(password!==confirmpassword)
         {
-         toast.error('Password do not match');
+         toast.error("Password don't match");
          return;
         }
         
@@ -45,6 +45,7 @@ const SignUpScreen = () => {
          });
          ctxDispatch({type:'USER_SIGNIN',payload:data})
          localStorage.setItem('userInfo',JSON.stringify(data));
+         toast.success("Successful!!!")
          navigate(redirect || '/')
         //  console.log(data);
        }
