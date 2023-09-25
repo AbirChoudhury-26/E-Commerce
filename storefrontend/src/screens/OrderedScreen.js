@@ -102,7 +102,7 @@ const OrderedScreen = () => {
   function onError(err) {
     // toast.error('Hua hi nahi.......');
     console.error('PayPal Error:', err); // Log the actual error message to the console
-  toast.error('An error occurred during payment. Please try again later.');
+  toast.error(err);
   }
 
   useEffect(() => {
