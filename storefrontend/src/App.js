@@ -38,12 +38,12 @@ function App() {
     <BrowserRouter>
     <div className='d-flex flex-column site-container'>   {/* Here we use Bootstrap class of flex in direction of column and to give our own css we named it as (site container)*/}
       {/* Bootstrap */}
-      <ToastContainer position="bottom-center" limit={1}/>
+      <ToastContainer position="top-center" limit={1}/>
       <header>                  
         <Navbar bg="dark" variant="dark">
           <Container>
             <LinkContainer to="/">
-            <Navbar.Brand>The Goods Planet</Navbar.Brand>
+            <Navbar.Brand className="ProductName">The Goods Planet</Navbar.Brand>
             </LinkContainer>
             <Nav className="me-auto">
               <Link to="/cart" className="nav-Link space">
