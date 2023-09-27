@@ -154,7 +154,7 @@ const OrderedScreen = () => {
         <title> Order :{orderId}</title>
       </Helmet>
 
-      <h1 className="my-3"> Order {orderId}</h1>
+      <h1 className="my-3"> Orders {orderId}</h1>
       <Row>
         {/*  Row divided in  8-Col Section out of 12 according to Medium Screen Size */}
         <Col md={8}>
