@@ -49,5 +49,5 @@ After all these steps an Order Summary Pagewith all the details filled are shown
 
 **Looking forward for your Feedback. Trying to Improve it**
 
-* New Pages have veen added like Order Screen ,Placeorder etc.
+* **`New Pages have been added like Order Screen ,Placeorder,Payment Options, RazorPay Gateway To be added soon etc.`**
 ## Soon I will update the Payment Page also.
