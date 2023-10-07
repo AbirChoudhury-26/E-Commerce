@@ -63,6 +63,17 @@ const PaymentScreen = () => {
         onChange={(e)=> setPaymentMethod(e.target.value)}
         />
      </div>
+
+     <div className="mb-3">
+      <Form.Check 
+       type="radio"
+       id="Phone Pay"
+       label="Phone Pay"
+       value="Phone Pay"
+       checked={paymentMethodName==='Phone Pay'}
+        onChange={(e)=> setPaymentMethod(e.target.value)}
+        />Phone Pay
+      </div>
      <div className="mb-3">
      <Button type="submit">Continue </Button>
      </div>
