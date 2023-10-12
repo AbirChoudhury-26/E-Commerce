@@ -37,7 +37,7 @@ orderRouter.get(
     if (order) {
       res.send(order);
     } else {
-      res.status(404).send({ message: 'Order Not found' });
+      res.status(404).send({ message: err.message });
     }
   })
 );
@@ -50,7 +50,7 @@ orderRouter.put(
       if(order)
       {
         order.isPaid=true;
-         order.paidAt=Date.now();
+         order.paidAt=Date.now;
           order.paymentResult={
              id:req.body.id,
              status:req.body.status,
