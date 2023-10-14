@@ -14,7 +14,7 @@ const PaymentScreen = () => {
         cart:{shippingAddress, PaymentMethod},
     }=state;
 
-    const[paymentMethodName,setPaymentMethod]=useState(PaymentMethod || 'Paytm')
+    const[paymentMethodName,setPaymentMethod]=useState(PaymentMethod || 'GooglePay')
 
     useEffect(()=>{
         if(!shippingAddress.address)
