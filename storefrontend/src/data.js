@@ -38,7 +38,22 @@ const data={
     rating:4.7,
     numReviews:100,
     description:'Monte Carlo Formal Shirts are well stiched ,purely made of cotton and are best suited to wear in any formal& jobs places.',  
+
+    
   },
+  {
+    _id:4,
+    name:'Raymonds Shirts',
+    type:'Full Colllar Sleeves',
+    category:'Shirts',
+    image:'https://sslimages.shoppersstop.com/sys-master/images/h0c/h9c/26466234662942/S21182FSAGD1RB_ROYAL_BLUE_alt1.jpg_2000Wx3000H',
+    price:780,
+    countInStock:10,
+    brand:'Raymonds',
+    rating:4.9,
+    numReviews:100,
+    description:'Raymond Shirts are well stiched ,purely made of cotton and are best suited to wear in any formal& jobs places.',  
+  }
 ]
 }
 
