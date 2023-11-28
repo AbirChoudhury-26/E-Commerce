@@ -107,7 +107,7 @@ const checkoutHandler=()=>{
                         <ListGroup variant="flush">
                             <ListGroup.Item>
                                <h3>
-                                 Subtotal ({cartItems.reduce((a,c)=> a +c.quantity,0)}{' '} items): $<b>{cartItems.reduce((a,c)=> a+ c.quantity*c.price,0)}</b> == INR<b>{cartItems.reduce((a,c)=> a+ c.quantity*c.price,0)*80}</b>
+                                 Subtotal ({cartItems.reduce((a,c)=> a +c.quantity,0)}{' '} items): $<b>{cartItems.reduce((a,c)=> a+ c.quantity*c.price,0)}</b> + == + INR<b>{cartItems.reduce((a,c)=> a+ c.quantity*c.price,0)*85}</b>
                                </h3>
                             </ListGroup.Item>
                             <ListGroup.Item>
