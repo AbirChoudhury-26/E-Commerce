@@ -25,6 +25,10 @@ const updateCartHandler=async (item,quantity)=>{
            window.alert("Sorry,Item Out of Stocks!!!☹");
            return;
           }
+          else if(data.countInStock===1)
+           {
+            window.alert("Only 1 Item left in Stck,")
+           }
         //   The payload carries information that is necessary to update the state in the reducer. It can contain any data relevant to the action, such as user input, API responses, or computed values. When an action is dispatched, the reducer receives the action along with its payload and determines how the state should be updated based on that payload.
           ctxdispatch({type:'CART_ADD_ITEM',payload:{...item,quantity},
         });
